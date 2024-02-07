@@ -1,7 +1,4 @@
 # Object-Detection-Framework
-Custom Object Detection Framework 
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Using Yolov5
 
@@ -16,7 +13,6 @@ Custom Object Detection Framework
     cd yolov5
     python train.py --img 416 --batch 16 --epochs 50 --data ../dataset.yaml --weights yolov5s.pt --cache
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Using MMDet
 
@@ -26,7 +22,7 @@ MmDetection Version: 2.28.2
 
     conda create -n mmdetection python=3.8.16
     conda activate mmdetection
-    git clone https://github.com/open-mmlab/mmdetection.git
+    git submodule update --init --recursive
     pip install  torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
     pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
     cd mmdetection
