@@ -20,6 +20,8 @@ Custom Object Detection Framework
 
 ## Using MMDet
 
+MmDetection Version: 2.28.2
+
 ### Setup MMDetection
 
     conda create -n mmdetection python=3.8.16
