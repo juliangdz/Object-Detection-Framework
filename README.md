@@ -1,5 +1,24 @@
 # Object-Detection-Framework
 
+- **Student ID**: 437451
+- **Student Name**: Julian Gerald Dcruz
+- **Course Code**: N-AAI-DAV-23-A23
+- **Deep Learning Assignment**
+
+## Dataset
+
+    RAW Dataset: 
+        images-directory: data/image
+        labels-directory: data/label
+    
+    UAV_DATASET: (Resized Images to 416x416 / Rescaled and Normalized Bounding Box Coordinates)
+        test/train/val : in YOLO Format 
+    
+    UAV_DATASET: 
+            KITTI_FORMAT: in MMDetection Format
+
+Use 'data_loading.ipynb' for visualization of dataset and conversion
+
 ## Using Yolov5
 
 ### Installing Yolov5 
@@ -36,3 +55,8 @@ MmDetection Version: 2.28.2
 ### Train and Log 
 
     Run Notebook: Train_Object_Detector_with_MMDetection_and_W&B.ipynb
+
+## Wandb Report
+
+UAV Detection with Faster R-CNN Report: [here](https://api.wandb.ai/links/juliangeralddcruz/ybqf8nl9)
+UAV Detection with YOLOv5 Report: [here](https://api.wandb.ai/links/juliangeralddcruz/ekebtjj5)
