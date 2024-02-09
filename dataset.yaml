@@ -1,5 +1,5 @@
-train: /home/docsun/Documents/git-repo/Object-Detection-Framework/data/UAV_DATASET/train/images
-val: /home/docsun/Documents/git-repo/Object-Detection-Framework/data/UAV_DATASET/val/images
+train: data/UAV_DATASET/train/images
+val: data/UAV_DATASET/val/images
 
 nc: 1  
 names: ['UAV']

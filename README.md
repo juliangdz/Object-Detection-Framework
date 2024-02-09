@@ -29,6 +29,7 @@ Use 'data_loading.ipynb' for visualization of dataset and conversion
 
 ### Training Yolov5
 
+    Modify the dataset.yaml to include absolute paths to the dataset for train and val 
     cd yolov5
     python train.py --img 416 --batch 16 --epochs 50 --data ../dataset.yaml --weights yolov5s.pt --cache
 
