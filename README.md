@@ -58,5 +58,5 @@ MmDetection Version: 2.28.2
 
 ## Wandb Report
 
-UAV Detection with Faster R-CNN Report: [here](https://api.wandb.ai/links/juliangeralddcruz/ybqf8nl9)
-UAV Detection with YOLOv5 Report: [here](https://api.wandb.ai/links/juliangeralddcruz/ekebtjj5)
+- UAV Detection with Faster R-CNN Report: [here](https://api.wandb.ai/links/juliangeralddcruz/ybqf8nl9)
+- UAV Detection with YOLOv5 Report: [here](https://api.wandb.ai/links/juliangeralddcruz/ekebtjj5)
